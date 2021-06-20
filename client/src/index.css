@@ -1,0 +1,20 @@
+body {
+  width: 90%;
+  /* margin: 0 auto; */
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  border: 2px black solid;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
